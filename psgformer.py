@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch_scatter import scatter_max, scatter_mean
 
-from psgormer.utils import cuda_cast, rle_encode
+from psgformer.utils import cuda_cast, rle_encode
 from .backbone import ResidualBlock, UBlock
 from .loss import Criterion
 from .query_decoder import QueryDecoder
